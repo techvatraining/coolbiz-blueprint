@@ -190,9 +190,9 @@ const Index = () => {
               <Link to="/contact">Request Free Quote</Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="gap-2 bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-              <a href="tel:+1234567890">
+              <a href="tel:09088152059">
                 <Phone className="h-4 w-4" />
-                Call +123 456 7890
+                Call 09088152059
               </a>
             </Button>
           </div>
