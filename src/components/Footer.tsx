@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin, Facebook } from "lucide-react";
-import logo from "@/assets/logo.jpg";
+import { Phone, Mail, MapPin, Facebook, Snowflake } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -9,11 +8,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <img 
-              src={logo} 
-              alt="IMCOOL AIRCON - Aircon & CCTV Experts" 
-              className="h-10 w-auto"
-            />
+            <div className="flex items-center gap-2">
+              <div className="bg-gradient-to-br from-primary to-accent p-2 rounded-lg">
+                <Snowflake className="h-5 w-5 text-primary-foreground" />
+              </div>
+              <span className="font-bold text-lg">IMCOOL AIRCON</span>
+            </div>
             <p className="text-sm text-muted-foreground">
               Fast & Reliable Air Conditioning Services. Your comfort is our priority.
             </p>

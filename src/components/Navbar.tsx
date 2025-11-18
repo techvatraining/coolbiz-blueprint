@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Menu, X, Phone } from "lucide-react";
+import { Menu, X, Phone, Snowflake } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/logo.jpg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,12 +18,13 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center group">
-            <img 
-              src={logo} 
-              alt="IMCOOL AIRCON - Aircon & CCTV Experts" 
-              className="h-12 w-auto transition-transform duration-300 group-hover:scale-105"
-            />
+          <Link to="/" className="flex items-center gap-2 group">
+            <div className="bg-gradient-to-br from-primary to-accent p-2 rounded-lg transition-transform duration-300 group-hover:scale-105">
+              <Snowflake className="h-6 w-6 text-primary-foreground" />
+            </div>
+            <span className="text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+              IMCOOL AIRCON
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
