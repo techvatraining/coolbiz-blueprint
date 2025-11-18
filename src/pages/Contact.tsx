@@ -148,24 +148,25 @@ const Contact = () => {
               <div className="bg-gradient-to-br from-primary to-accent rounded-2xl p-8 text-primary-foreground">
                 <h2 className="text-2xl font-bold mb-6">Contact Information</h2>
                 <div className="space-y-6">
-                  <a href="tel:+1234567890" className="flex items-start gap-4 hover:opacity-80 transition-opacity">
+                  <div className="flex items-start gap-4">
                     <div className="w-12 h-12 bg-primary-foreground/20 rounded-lg flex items-center justify-center flex-shrink-0">
                       <Phone className="h-5 w-5" />
                     </div>
                     <div>
                       <p className="font-semibold mb-1">Phone</p>
-                      <p className="opacity-90">+63 111111111</p>
-                      <p className="text-sm opacity-75">Available 24/7</p>
+                      <a href="tel:09088152059" className="block opacity-90 hover:opacity-100">0908 815 2059</a>
+                      <a href="tel:09985716072" className="block opacity-90 hover:opacity-100">0998 571 6072</a>
+                      <p className="text-sm opacity-75 mt-1">Available 24/7</p>
                     </div>
-                  </a>
+                  </div>
                   
-                  <a href="mailto:info@imcoolaircon.com" className="flex items-start gap-4 hover:opacity-80 transition-opacity">
+                  <a href="mailto:imcool.business@gmail.com" className="flex items-start gap-4 hover:opacity-80 transition-opacity">
                     <div className="w-12 h-12 bg-primary-foreground/20 rounded-lg flex items-center justify-center flex-shrink-0">
                       <Mail className="h-5 w-5" />
                     </div>
                     <div>
                       <p className="font-semibold mb-1">Email</p>
-                      <p className="opacity-90">info@imcoolaircon.com</p>
+                      <p className="opacity-90">imcool.business@gmail.com</p>
                       <p className="text-sm opacity-75">Response within 24 hours</p>
                     </div>
                   </a>
@@ -194,7 +195,7 @@ const Contact = () => {
                   </div>
                   
                   <a 
-                    href="https://facebook.com" 
+                    href="https://www.facebook.com/imcoolph" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex items-start gap-4 hover:opacity-80 transition-opacity"

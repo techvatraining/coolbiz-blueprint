@@ -53,19 +53,23 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold mb-4">Contact Us</h3>
             <div className="space-y-3">
-              <a href="tel:+1234567890" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
+              <a href="tel:09088152059" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
                 <Phone className="h-4 w-4" />
-                +123 456 7890
+                0908 815 2059
               </a>
-              <a href="mailto:info@imcoolaircon.com" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
+              <a href="tel:09985716072" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
+                <Phone className="h-4 w-4" />
+                0998 571 6072
+              </a>
+              <a href="mailto:imcool.business@gmail.com" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
                 <Mail className="h-4 w-4" />
-                info@imcoolaircon.com
+                imcool.business@gmail.com
               </a>
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <MapPin className="h-4 w-4" />
                 Laguna, Philippines
               </div>
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://www.facebook.com/imcoolph" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
                 <Facebook className="h-4 w-4" />
                 Follow us on Facebook
               </a>
