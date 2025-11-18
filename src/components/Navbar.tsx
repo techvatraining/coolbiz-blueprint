@@ -19,10 +19,10 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="bg-gradient-to-br from-primary to-accent p-2 rounded-lg transition-transform duration-300 group-hover:scale-105">
+            <div className="bg-primary p-2 rounded-lg transition-transform duration-300 group-hover:scale-105">
               <Snowflake className="h-6 w-6 text-primary-foreground" />
             </div>
-            <span className="text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+            <span className="text-xl font-bold text-primary">
               IMCOOL AIRCON
             </span>
           </Link>

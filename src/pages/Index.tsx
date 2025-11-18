@@ -57,13 +57,13 @@ const Index = () => {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="relative pt-20 bg-gradient-to-b from-secondary/30 to-background">
+      <section className="relative pt-20 bg-secondary/30">
         <div className="container mx-auto px-4 py-20">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
                 Fast & Reliable{" "}
-                <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                <span className="text-primary">
                   Aircon Service
                 </span>
               </h1>
@@ -98,7 +98,7 @@ const Index = () => {
               </div>
             </div>
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-accent/20 rounded-2xl blur-3xl"></div>
+              <div className="absolute inset-0 bg-primary/20 rounded-2xl blur-3xl"></div>
               <img 
                 src={heroImage} 
                 alt="Professional aircon technician servicing AC unit" 
@@ -137,21 +137,21 @@ const Index = () => {
           </div>
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="text-center space-y-3">
-              <div className="w-16 h-16 bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center mx-auto">
+              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto">
                 <span className="text-2xl font-bold text-primary-foreground">15+</span>
               </div>
               <h3 className="font-semibold text-xl">Years of Experience</h3>
               <p className="text-muted-foreground">Trusted expertise in AC services</p>
             </div>
             <div className="text-center space-y-3">
-              <div className="w-16 h-16 bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center mx-auto">
+              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto">
                 <span className="text-2xl font-bold text-primary-foreground">5K+</span>
               </div>
               <h3 className="font-semibold text-xl">Happy Customers</h3>
               <p className="text-muted-foreground">Across Laguna and Metro Manila</p>
             </div>
             <div className="text-center space-y-3">
-              <div className="w-16 h-16 bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center mx-auto">
+              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto">
                 <span className="text-2xl font-bold text-primary-foreground">100%</span>
               </div>
               <h3 className="font-semibold text-xl">Satisfaction Guaranteed</h3>
@@ -179,7 +179,7 @@ const Index = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-primary to-accent text-primary-foreground">
+      <section className="py-20 bg-primary text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Cool Down?</h2>
           <p className="text-lg mb-8 opacity-90 max-w-2xl mx-auto">

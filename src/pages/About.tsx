@@ -13,7 +13,7 @@ const About = () => {
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               About{" "}
-              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+              <span className="text-primary">
                 IMCOOL AIRCON
               </span>
             </h1>
@@ -46,7 +46,7 @@ const About = () => {
             <h2 className="text-3xl font-bold text-center mb-12">Why Choose Us</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="text-center p-6">
-                <div className="w-16 h-16 bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
                   <Award className="h-8 w-8 text-primary-foreground" />
                 </div>
                 <h3 className="font-semibold text-lg mb-2">Licensed & Certified</h3>
@@ -55,7 +55,7 @@ const About = () => {
                 </p>
               </div>
               <div className="text-center p-6">
-                <div className="w-16 h-16 bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
                   <Users className="h-8 w-8 text-primary-foreground" />
                 </div>
                 <h3 className="font-semibold text-lg mb-2">5000+ Satisfied Customers</h3>
@@ -64,7 +64,7 @@ const About = () => {
                 </p>
               </div>
               <div className="text-center p-6">
-                <div className="w-16 h-16 bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
                   <Clock className="h-8 w-8 text-primary-foreground" />
                 </div>
                 <h3 className="font-semibold text-lg mb-2">24/7 Emergency Service</h3>
@@ -73,7 +73,7 @@ const About = () => {
                 </p>
               </div>
               <div className="text-center p-6">
-                <div className="w-16 h-16 bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
                   <CheckCircle className="h-8 w-8 text-primary-foreground" />
                 </div>
                 <h3 className="font-semibold text-lg mb-2">Quality Guaranteed</h3>

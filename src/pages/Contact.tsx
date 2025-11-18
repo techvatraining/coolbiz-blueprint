@@ -53,7 +53,7 @@ const Contact = () => {
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Get in{" "}
-              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+              <span className="text-primary">
                 Touch
               </span>
             </h1>
@@ -145,7 +145,7 @@ const Contact = () => {
 
             {/* Contact Information */}
             <div className="space-y-6">
-              <div className="bg-gradient-to-br from-primary to-accent rounded-2xl p-8 text-primary-foreground">
+              <div className="bg-primary rounded-2xl p-8 text-primary-foreground">
                 <h2 className="text-2xl font-bold mb-6">Contact Information</h2>
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">

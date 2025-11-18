@@ -91,7 +91,7 @@ const Services = () => {
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Our{" "}
-              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+              <span className="text-primary">
                 Services
               </span>
             </h1>
@@ -105,7 +105,7 @@ const Services = () => {
             {services.map((service, index) => (
               <Card key={index} className="hover:shadow-lg transition-shadow">
                 <CardHeader>
-                  <div className="w-14 h-14 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center mb-4">
+                  <div className="w-14 h-14 bg-primary rounded-lg flex items-center justify-center mb-4">
                     <service.icon className="h-7 w-7 text-primary-foreground" />
                   </div>
                   <CardTitle className="text-xl">{service.title}</CardTitle>
